@@ -1,0 +1,24 @@
+package Spring.cmd.Spring;
+
+
+import org.springframework.web.bind.annotation.*;
+import java.util.Random;
+import java.util.ArrayList;
+import java.util.List;
+import com.github.javafaker.Faker;
+
+@RestController
+
+public class QuoteContoller{
+       
+       Random random = new Random();
+       Faker faker = new Faker();
+
+
+   @GetMapping("/quotes")
+
+         return "<button>Generate Quotes</button>"
+  
+
+   @GetMapping("/quotes/generate")
+}
